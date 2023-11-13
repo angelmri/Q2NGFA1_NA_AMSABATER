@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+} 
+
+nav{
+    display: flex;
+
+    justify-content: space-evenly;
+    width: 100vw;
+}
+#sitename{
+    font-size: large;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+.navlinks{
+    text-decoration: none;
+    color: rgb(130, 51, 51);
+    padding: 1vw;
+}
+section{
+    display: flex;
+    height: 85vh;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/**720p landscape screen**/
+@media screen and (max-width: 720px){
+    nav{
+        background-color: bisque;
+    }
+}
+/**square tablets**/
+@media screen and (max-width: 640px)  {
+    nav{
+        background-color: aquamarine;
+    }
+}
+/**some tablet**/
+@media screen and (max-width: 600px){
+    nav{
+        background-color: brown;
+    }
+}
+/**Fully Mobile**/
+@media screen and (max-width: 480px) {
+    nav{
+        background-color: cadetblue;
+    }
+}   
